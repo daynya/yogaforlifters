@@ -1,0 +1,14 @@
+{{define "page"}}
+<html>
+	<head>
+		<title>{{.Obj.Title}}</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	{{.Obj.Markup}}
+	</body>
+	<footer>
+		<p>{{.Obj.Data.footer}}</p>
+	</footer>
+</html>
+{{end}}
