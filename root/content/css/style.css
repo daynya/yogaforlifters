@@ -63,15 +63,6 @@ ul {
     padding-left: 0;
 }
 
-.email {
-    background-color: #b7c8db;
-    color: #530606;
-    padding: 50px 20px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    text-align: center;
-}
-
 .question {
     color: #031d3b;
     margin-top: 20px;
@@ -87,32 +78,48 @@ ul {
     margin-right: 20px;
 }
 
+.email {
+    background-color: #b7c8db;
+    color: #530606;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 label {
     margin-bottom: 0;
     margin-top: 15px;
 }
 
-input[type=text] {
-    border-radius: 3px;
-    border: none;
-    padding: 5px;
-    margin: 5px;
-    box-sizing: border-box;
+.form-row {
+    margin-top: 20px;
 }
 
-input[type=submit] {
-    background-color: #2D111C;
-    color: #fff;
-    border-radius: 3px;
-    border: none;
-    margin: 10px;
-    margin-top: 25px;
-    padding: 5px;
+.form-control {
+    margin-top: 5px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.form-check-label {
+    font-size: .9rem;
+    padding-right: 1rem;
+}
+
+.btn-primary {
+    background-color: #530606;
+    border-color: #530606;
     transition: .5s;
 }
 
-input[type=submit]:hover {
+.btn-primary:hover {
     background-color: #031d3b;
+    border-color: #031d3b;
 }
 
 @media screen and (min-width: 768px) {
