@@ -1,4 +1,4 @@
-# strong ass yoga
+# Strong Ass Yoga
 
 This is a site I built for a personal side project. It was built
 using Signal, a static site generator. It will move on to have 
